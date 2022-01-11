@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
@@ -13,6 +13,6 @@
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JvA.Library.Domain\JvA.Library.Domain.csproj" />
+    <ProjectReference Include="..\Araujo.Library.Domain\Araujo.Library.Domain.csproj" />
   </ItemGroup>
 </Project>

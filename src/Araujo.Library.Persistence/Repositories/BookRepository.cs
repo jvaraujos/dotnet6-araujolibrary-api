@@ -11,7 +11,7 @@ namespace JvA.Library.Persistence.Repositories
 {
     public class BookRepository : BaseRepository<Book>, IBookRepository
     {
-        public BookRepository(JvADbContext context) : base(context)
+        public BookRepository(AraujoDbContext context) : base(context)
         {
 
         }

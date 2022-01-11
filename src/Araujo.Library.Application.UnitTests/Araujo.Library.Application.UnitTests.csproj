@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JvA.Library.Core\JvA.Library.Application.csproj" />
+    <ProjectReference Include="..\Araujo.Library.Application\Araujo.Library.Application.csproj" />
   </ItemGroup>
 
 

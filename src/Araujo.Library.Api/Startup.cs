@@ -137,7 +137,7 @@ namespace JvA.Library.Api
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "JvA Library API",
+                    Title = "Araujo Library API",
                     Description = "Web Api for books loan control."
                 });
 

@@ -9,7 +9,7 @@ namespace JvA.Library.Persistence.Repositories
 {
     public class StudentRepository : BaseRepository<Student>, IStudentRepository
     {
-        public StudentRepository(JvADbContext context) : base(context)
+        public StudentRepository(AraujoDbContext context) : base(context)
         {
         }
 

@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JvA.Library.Repository\JvA.Library.Persistence.csproj" />
+    <ProjectReference Include="..\Araujo.Library.Persistence\Araujo.Library.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>

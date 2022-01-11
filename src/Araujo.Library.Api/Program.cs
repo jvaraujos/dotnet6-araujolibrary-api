@@ -33,7 +33,7 @@ namespace JvA.Library.Api
                     var loggerFactory = services.GetRequiredService<ILoggerFactory>();
                     try
                     {
-                        var dbContext = services.GetRequiredService<JvADbContext>();
+                        var dbContext = services.GetRequiredService<AraujoDbContext>();
                         DatabaseBootStrap.AddDevContext(dbContext);
                         Log.Information("Application Starting");
                     }
