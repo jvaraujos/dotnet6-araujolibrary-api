@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Api", "src\JvA.Library.Api\JvA.Library.Api.csproj", "{751D12B9-97CF-4BAA-B394-0D4BEC7DE1D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Application", "src\JvA.Library.Core\JvA.Library.Application.csproj", "{20A819CE-27AA-4269-8D84-85A50A39190C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Application", "src\JvA.Library.Application\JvA.Library.Application.csproj", "{20A819CE-27AA-4269-8D84-85A50A39190C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Persistence", "src\JvA.Library.Repository\JvA.Library.Persistence.csproj", "{D5951429-6AD2-4D8A-9702-86A419748564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Persistence", "src\JvA.Library.Persistence\JvA.Library.Persistence.csproj", "{D5951429-6AD2-4D8A-9702-86A419748564}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{9B62738F-549A-419A-B2CA-A633B300B0E9}"
 EndProject

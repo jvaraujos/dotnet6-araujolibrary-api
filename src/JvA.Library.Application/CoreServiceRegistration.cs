@@ -12,6 +12,5 @@ namespace JvA.Library.Application
             services.AddMediatR(Assembly.GetExecutingAssembly());
             return services;
         }
-
     }
 }
