@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace JvA.Library.Persistence.DbContexts
 {
-    public partial class JvADbContext : DbContext
+    public partial class AraujoDbContext : DbContext
     {
 
-        public JvADbContext(DbContextOptions<JvADbContext> options)
+        public AraujoDbContext(DbContextOptions<AraujoDbContext> options)
          : base(options)
         {
         }

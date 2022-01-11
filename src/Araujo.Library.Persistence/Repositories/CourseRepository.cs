@@ -6,7 +6,7 @@ namespace JvA.Library.Persistence.Repositories
 {
     public class CourseRepository : BaseRepository<Course>, ICourseRepository
     {
-        public CourseRepository(JvADbContext context) : base(context)
+        public CourseRepository(AraujoDbContext context) : base(context)
         {
         }
     }

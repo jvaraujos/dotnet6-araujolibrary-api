@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Api", "src\JvA.Library.Api\JvA.Library.Api.csproj", "{751D12B9-97CF-4BAA-B394-0D4BEC7DE1D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Araujo.Library.Api", "src\Araujo.Library.Api\Araujo.Library.Api.csproj", "{751D12B9-97CF-4BAA-B394-0D4BEC7DE1D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Application", "src\JvA.Library.Application\JvA.Library.Application.csproj", "{20A819CE-27AA-4269-8D84-85A50A39190C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Araujo.Library.Application", "src\Araujo.Library.Application\Araujo.Library.Application.csproj", "{20A819CE-27AA-4269-8D84-85A50A39190C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Persistence", "src\JvA.Library.Persistence\JvA.Library.Persistence.csproj", "{D5951429-6AD2-4D8A-9702-86A419748564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Araujo.Library.Persistence", "src\Araujo.Library.Persistence\Araujo.Library.Persistence.csproj", "{D5951429-6AD2-4D8A-9702-86A419748564}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{9B62738F-549A-419A-B2CA-A633B300B0E9}"
 EndProject
@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C9D67EB9-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{07830B2E-0854-4BE0-A6CC-57AAE388A3E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Domain", "src\JvA.Library.Domain\JvA.Library.Domain.csproj", "{BF8CDEB8-05D8-4421-B8EA-386706CA6C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Araujo.Library.Domain", "src\Araujo.Library.Domain\Araujo.Library.Domain.csproj", "{BF8CDEB8-05D8-4421-B8EA-386706CA6C7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BB9F1B54-C5FB-486C-AEE5-3B4608A0BAEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JvA.Library.Application.UnitTests", "src\JvA.Library.Application.UnitTests\JvA.Library.Application.UnitTests.csproj", "{1777FB66-9966-4655-8EBD-310FB1D5B276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Araujo.Library.Application.UnitTests", "src\Araujo.Library.Application.UnitTests\Araujo.Library.Application.UnitTests.csproj", "{1777FB66-9966-4655-8EBD-310FB1D5B276}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47F95DF6-5682-4F21-B414-09D0E4D63AC2}"
 EndProject

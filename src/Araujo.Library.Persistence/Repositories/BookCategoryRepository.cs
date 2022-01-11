@@ -6,7 +6,7 @@ namespace JvA.Library.Persistence.Repositories
 {
     public class BookCategoryRepository : BaseRepository<BookCategory>, IBookCategoryRepository
     {
-        public BookCategoryRepository(JvADbContext context) : base(context)
+        public BookCategoryRepository(AraujoDbContext context) : base(context)
         {
 
         }

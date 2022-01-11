@@ -11,9 +11,8 @@ namespace JvA.Library.Persistence
     {
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<JvADbContext>(options =>
-            options.UseInMemoryDatabase("JvALibrary"));
-
+            services.AddDbContext<AraujoDbContext>(options =>
+            options.UseInMemoryDatabase("AraujoLibrary"));
             //services.AddScoped(typeof(IAsyncRepository<>), typeof(BaseRepository<>));
             services.AddScoped<IBookCategoryRepository, BookCategoryRepository>();
             services.AddScoped<IBookRepository, BookRepository>();

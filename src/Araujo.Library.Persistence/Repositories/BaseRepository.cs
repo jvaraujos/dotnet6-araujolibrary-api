@@ -11,8 +11,8 @@ namespace JvA.Library.Persistence.Repositories
 {
     public abstract class BaseRepository<T> : IAsyncRepository<T> where T : class
     {
-        protected readonly JvADbContext _dbContext;
-        public BaseRepository(JvADbContext neowrkDbContext)
+        protected readonly AraujoDbContext _dbContext;
+        public BaseRepository(AraujoDbContext neowrkDbContext)
         {
             _dbContext = neowrkDbContext;
         }
