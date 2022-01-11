@@ -1,2 +1,2 @@
-# JvALibrary
-Application JvALibrary , back-end: .NET 6
+# Araujo Library
+Application Araujo Library , back-end: .NET 6
