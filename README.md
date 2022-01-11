@@ -1,2 +1,2 @@
 # Araujo Library
-Application Araujo Library , back-end: .NET 6
+Application for loan Books
