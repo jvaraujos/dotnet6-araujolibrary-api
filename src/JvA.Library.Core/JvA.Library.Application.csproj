@@ -1,15 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Entities\**" />
-    <EmbeddedResource Remove="Entities\**" />
-    <None Remove="Entities\**" />
-  </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
@@ -20,9 +12,7 @@
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.4" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\JvA.Library.Domain\JvA.Library.Domain.csproj" />
   </ItemGroup>
-
 </Project>
