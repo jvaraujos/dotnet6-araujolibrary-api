@@ -1,8 +1,8 @@
-﻿using JvA.Library.Application.Features.Courses.Commands.CreateCourse;
-using JvA.Library.Application.Features.Courses.Commands.DeleteCourse;
-using JvA.Library.Application.Features.Courses.Commands.UpdateCourse;
-using JvA.Library.Application.Features.Courses.Queries.GetCourseDetail;
-using JvA.Library.Application.Features.Courses.Queries.GetCourseList;
+﻿using Araujo.Library.Application.Features.Courses.Commands.CreateCourse;
+using Araujo.Library.Application.Features.Courses.Commands.DeleteCourse;
+using Araujo.Library.Application.Features.Courses.Commands.UpdateCourse;
+using Araujo.Library.Application.Features.Courses.Queries.GetCourseDetail;
+using Araujo.Library.Application.Features.Courses.Queries.GetCourseList;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Api.Controllers
+namespace Araujo.Library.Api.Controllers
 {
     [Authorize]
     [ApiController]

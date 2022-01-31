@@ -1,12 +1,12 @@
-﻿using JvA.Library.Domain.Common;
-using JvA.Library.Domain.Entities;
+﻿using Araujo.Library.Domain.Common;
+using Araujo.Library.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Persistence.DbContexts
+namespace Araujo.Library.Persistence.DbContexts
 {
     public partial class AraujoDbContext : DbContext
     {

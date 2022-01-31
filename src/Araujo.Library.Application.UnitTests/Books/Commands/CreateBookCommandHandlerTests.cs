@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Application.Features.Books.Commands.CreateBook;
-using JvA.Library.Application.Profiles;
-using JvA.Library.Application.UnitTests.Mocks;
+using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Application.Features.Books.Commands.CreateBook;
+using Araujo.Library.Application.Profiles;
+using Araujo.Library.Application.UnitTests.Mocks;
 using Microsoft.Extensions.Logging;
 using Moq;
 using Shouldly;
@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace JvA.Library.Application.UnitTests.Books.Commands
+namespace Araujo.Library.Application.UnitTests.Books.Commands
 {
     public class CreateBookCommandHandlerTests
     {

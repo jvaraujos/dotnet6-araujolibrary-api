@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace JvA.Library.Domain.Common
+namespace Araujo.Library.Domain.Common
 {
     public class AuditableEntity
     {

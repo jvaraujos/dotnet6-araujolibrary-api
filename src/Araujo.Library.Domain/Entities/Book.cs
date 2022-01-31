@@ -1,11 +1,11 @@
-﻿using JvA.Library.Domain.Common;
+﻿using Araujo.Library.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Domain.Entities
+namespace Araujo.Library.Domain.Entities
 {
     public class Book : AuditableEntity
     {

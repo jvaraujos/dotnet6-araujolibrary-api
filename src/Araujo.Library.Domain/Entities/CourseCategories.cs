@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace JvA.Library.Domain.Entities
+namespace Araujo.Library.Domain.Entities
 {
     public class CourseCategories
     {

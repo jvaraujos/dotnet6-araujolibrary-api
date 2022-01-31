@@ -1,5 +1,5 @@
-﻿using JvA.Library.Persistence.DbContexts;
-using JvA.Library.Persistence.Seeds;
+﻿using Araujo.Library.Persistence.DbContexts;
+using Araujo.Library.Persistence.Seeds;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ using Serilog;
 using System;
 using System.Linq;
 
-namespace JvA.Library.Api
+namespace Araujo.Library.Api
 {
     public class Program
     {

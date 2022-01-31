@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace JvA.Library.Application.Features.Books.Commands.UpdateBook
+namespace Araujo.Library.Application.Features.Books.Commands.UpdateBook
 {
     public class UpdateBookCommand : IRequest
     {

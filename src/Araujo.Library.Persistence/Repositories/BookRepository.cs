@@ -1,13 +1,13 @@
-﻿using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Domain.Entities;
-using JvA.Library.Persistence.DbContexts;
+﻿using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Domain.Entities;
+using Araujo.Library.Persistence.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Persistence.Repositories
+namespace Araujo.Library.Persistence.Repositories
 {
     public class BookRepository : BaseRepository<Book>, IBookRepository
     {

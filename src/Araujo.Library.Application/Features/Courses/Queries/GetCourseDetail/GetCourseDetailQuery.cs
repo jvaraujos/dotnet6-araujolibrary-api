@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JvA.Library.Application.Features.Courses.Queries.GetCourseDetail
+namespace Araujo.Library.Application.Features.Courses.Queries.GetCourseDetail
 {
     public class GetCourseDetailQuery : IRequest<GetCourseDetailQueryResponse>
     {

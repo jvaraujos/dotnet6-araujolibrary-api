@@ -1,12 +1,12 @@
 ﻿using Google.Apis.Auth;
-using JvA.Library.Api.Security;
+using Araujo.Library.Api.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace JvA.Library.Api.Controllers
+namespace Araujo.Library.Api.Controllers
 {
     public class GoogleAuthController : Controller
     {

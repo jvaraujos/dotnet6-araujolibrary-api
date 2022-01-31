@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace JvA.Library.Api.Middleware
+namespace Araujo.Library.Api.Middleware
 {
     public static class MiddlewareExtensions
     {

@@ -1,7 +1,7 @@
-﻿using JvA.Library.Application.Responses;
+﻿using Araujo.Library.Application.Responses;
 using System.Collections.Generic;
 
-namespace JvA.Library.Application.Features.Students.Queries.GetStudentDetail
+namespace Araujo.Library.Application.Features.Students.Queries.GetStudentDetail
 {
     public class GetStudentDetailQueryResponse : BaseResponse
     {

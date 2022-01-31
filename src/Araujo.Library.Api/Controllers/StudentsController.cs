@@ -1,8 +1,8 @@
-﻿using JvA.Library.Application.Features.Students.Commands.CreateStudent;
-using JvA.Library.Application.Features.Students.Commands.DeleteStudent;
-using JvA.Library.Application.Features.Students.Commands.UpdateStudent;
-using JvA.Library.Application.Features.Students.Queries.GetStudentDetail;
-using JvA.Library.Application.Features.Students.Queries.GetStudentList;
+﻿using Araujo.Library.Application.Features.Students.Commands.CreateStudent;
+using Araujo.Library.Application.Features.Students.Commands.DeleteStudent;
+using Araujo.Library.Application.Features.Students.Commands.UpdateStudent;
+using Araujo.Library.Application.Features.Students.Queries.GetStudentDetail;
+using Araujo.Library.Application.Features.Students.Queries.GetStudentList;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Api.Controllers
+namespace Araujo.Library.Api.Controllers
 {
     [Authorize]
     [ApiController]

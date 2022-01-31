@@ -1,11 +1,11 @@
-﻿using JvA.Library.Application.Exceptions;
+﻿using Araujo.Library.Application.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Api.Middleware
+namespace Araujo.Library.Api.Middleware
 {
     public class ExceptionHandlerMiddleware
     {

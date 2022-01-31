@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JvA.Library.Application.Exceptions
+namespace Araujo.Library.Application.Exceptions
 {
     public class BadRequestException : ApplicationException
     {

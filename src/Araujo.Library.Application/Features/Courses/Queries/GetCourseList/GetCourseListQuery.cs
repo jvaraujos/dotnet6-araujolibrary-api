@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System.Collections.Generic;
 
-namespace JvA.Library.Application.Features.Courses.Queries.GetCourseList
+namespace Araujo.Library.Application.Features.Courses.Queries.GetCourseList
 {
     public class GetCourseListQuery : IRequest<IReadOnlyList<CourseListVm>>
     {

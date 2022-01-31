@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Domain.Entities;
+using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Domain.Entities;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Application.Features.Courses.Commands.CreateCourse
+namespace Araujo.Library.Application.Features.Courses.Commands.CreateCourse
 {
     public class BorrowBookQueryHandler :
         IRequestHandler<CreateCourseCommand, CreateCourseCommandResponse>

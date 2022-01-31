@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JvA.Library.Application.Features.Courses.Commands.CreateCourse
+namespace Araujo.Library.Application.Features.Courses.Commands.CreateCourse
 {
     public class CreateCourseCommandDto
     {

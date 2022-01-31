@@ -1,10 +1,10 @@
-﻿using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Domain.Entities;
+﻿using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Domain.Entities;
 using Moq;
 using System;
 using System.Collections.Generic;
 
-namespace JvA.Library.Application.UnitTests.Mocks
+namespace Araujo.Library.Application.UnitTests.Mocks
 {
     public class RepositoryMocks
     {
