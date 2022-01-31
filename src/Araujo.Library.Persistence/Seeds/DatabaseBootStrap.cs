@@ -1,9 +1,9 @@
-﻿using JvA.Library.Persistence.DbContexts;
+﻿using Araujo.Library.Persistence.DbContexts;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace JvA.Library.Persistence.Seeds
+namespace Araujo.Library.Persistence.Seeds
 {
     public static class DatabaseBootStrap
     {

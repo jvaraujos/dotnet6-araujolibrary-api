@@ -1,6 +1,6 @@
-﻿using JvA.Library.Domain.Entities;
+﻿using Araujo.Library.Domain.Entities;
 
-namespace JvA.Library.Application.Contracts.Persistence
+namespace Araujo.Library.Application.Contracts.Persistence
 {
     public interface IBookCategoryRepository : IAsyncRepository<BookCategory>
     {

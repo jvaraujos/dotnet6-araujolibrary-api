@@ -1,9 +1,9 @@
-﻿using JvA.Library.Application.Features.Books.Commands.CreateBook;
-using JvA.Library.Application.Features.Books.Commands.DeleteBook;
-using JvA.Library.Application.Features.Books.Commands.UpdateBook;
-using JvA.Library.Application.Features.Books.Queries.BorrowBook;
-using JvA.Library.Application.Features.Books.Queries.GetBookDetail;
-using JvA.Library.Application.Features.Books.Queries.GetBookList;
+﻿using Araujo.Library.Application.Features.Books.Commands.CreateBook;
+using Araujo.Library.Application.Features.Books.Commands.DeleteBook;
+using Araujo.Library.Application.Features.Books.Commands.UpdateBook;
+using Araujo.Library.Application.Features.Books.Queries.BorrowBook;
+using Araujo.Library.Application.Features.Books.Queries.GetBookDetail;
+using Araujo.Library.Application.Features.Books.Queries.GetBookList;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Api.Controllers
+namespace Araujo.Library.Api.Controllers
 {
     //[Authorize]
     [ApiController]

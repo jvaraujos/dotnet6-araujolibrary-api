@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JvA.Library.Application.Features.Students.Commands.CreateStudent
+namespace Araujo.Library.Application.Features.Students.Commands.CreateStudent
 {
     public class CreateStudentCommandDto
     {

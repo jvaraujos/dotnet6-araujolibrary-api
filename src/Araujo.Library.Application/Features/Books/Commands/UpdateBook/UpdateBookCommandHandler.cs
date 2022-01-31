@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Application.Exceptions;
-using JvA.Library.Domain.Entities;
+using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Application.Exceptions;
+using Araujo.Library.Domain.Entities;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Application.Features.Books.Commands.UpdateBook
+namespace Araujo.Library.Application.Features.Books.Commands.UpdateBook
 {
     public class UpdateBookCommandHandler : IRequestHandler<UpdateBookCommand>
     {

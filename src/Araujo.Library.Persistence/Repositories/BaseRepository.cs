@@ -1,5 +1,5 @@
-﻿using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Persistence.DbContexts;
+﻿using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Persistence.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Persistence.Repositories
+namespace Araujo.Library.Persistence.Repositories
 {
     public abstract class BaseRepository<T> : IAsyncRepository<T> where T : class
     {
         protected readonly AraujoDbContext _dbContext;
-        public BaseRepository(AraujoDbContext neowrkDbContext)
+        public BaseRepository(AraujoDbContext araujoLibrary)
         {
-            _dbContext = neowrkDbContext;
+            _dbContext = araujoLibrary;
         }
         public async Task<T> AddAsync(T entity)
         {

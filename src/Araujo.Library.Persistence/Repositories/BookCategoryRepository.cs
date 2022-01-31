@@ -1,8 +1,8 @@
-﻿using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Domain.Entities;
-using JvA.Library.Persistence.DbContexts;
+﻿using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Domain.Entities;
+using Araujo.Library.Persistence.DbContexts;
 
-namespace JvA.Library.Persistence.Repositories
+namespace Araujo.Library.Persistence.Repositories
 {
     public class BookCategoryRepository : BaseRepository<BookCategory>, IBookCategoryRepository
     {

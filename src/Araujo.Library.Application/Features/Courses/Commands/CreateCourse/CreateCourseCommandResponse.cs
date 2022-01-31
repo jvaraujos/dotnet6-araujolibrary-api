@@ -1,6 +1,6 @@
-﻿using JvA.Library.Application.Responses;
+﻿using Araujo.Library.Application.Responses;
 
-namespace JvA.Library.Application.Features.Courses.Commands.CreateCourse
+namespace Araujo.Library.Application.Features.Courses.Commands.CreateCourse
 {
     public class CreateCourseCommandResponse : BaseResponse
     {

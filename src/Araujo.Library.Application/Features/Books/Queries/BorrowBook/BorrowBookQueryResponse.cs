@@ -1,6 +1,6 @@
-﻿using JvA.Library.Application.Responses;
+﻿using Araujo.Library.Application.Responses;
 
-namespace JvA.Library.Application.Features.Books.Queries.BorrowBook
+namespace Araujo.Library.Application.Features.Books.Queries.BorrowBook
 {
     public class BorrowBookQueryResponse : BaseResponse
     {

@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JvA.Library.Application.Exceptions
+namespace Araujo.Library.Application.Exceptions
 {
     public class ValidationException : ApplicationException
     {

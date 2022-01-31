@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
-using JvA.Library.Application.Contracts.Persistence;
+using Araujo.Library.Application.Contracts.Persistence;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Application.Features.Books.Queries.BorrowBook
+namespace Araujo.Library.Application.Features.Books.Queries.BorrowBook
 {
     public class BorrowBookQueryValidator : AbstractValidator<BorrowBookQuery>
     {

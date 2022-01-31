@@ -1,6 +1,6 @@
-﻿using JvA.Library.Api.Middleware;
-using JvA.Library.Application;
-using JvA.Library.Persistence;
+﻿using Araujo.Library.Api.Middleware;
+using Araujo.Library.Application;
+using Araujo.Library.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -18,7 +18,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace JvA.Library.Api
+namespace Araujo.Library.Api
 {
     public class Startup
     {
@@ -157,7 +157,7 @@ namespace JvA.Library.Api
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "JvA Library API");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Araujo Library API");
             });
             app.UseCustomExceptionHandler();
 

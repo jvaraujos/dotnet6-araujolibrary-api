@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Application.Exceptions;
-using JvA.Library.Domain.Entities;
+using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Application.Exceptions;
+using Araujo.Library.Domain.Entities;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Application.Features.Students.Queries.GetStudentDetail
+namespace Araujo.Library.Application.Features.Students.Queries.GetStudentDetail
 {
     public class GetStudentDetailQueryHandler :
         IRequestHandler<GetStudentDetailQuery, GetStudentDetailQueryResponse>

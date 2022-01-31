@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace JvA.Library.Application.Features.Courses.Commands.DeleteCourse
+namespace Araujo.Library.Application.Features.Courses.Commands.DeleteCourse
 {
     public class DeleteCourseCommand : IRequest
     {

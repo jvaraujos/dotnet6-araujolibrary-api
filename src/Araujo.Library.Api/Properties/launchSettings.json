@@ -24,7 +24,7 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "publishAllPorts": true
     },
-    "JvA.Library.Api": {
+    "Araujo.Library.Api": {
       "commandName": "Project",
       "commandLineArgs": "-- seed",
       "launchBrowser": true,

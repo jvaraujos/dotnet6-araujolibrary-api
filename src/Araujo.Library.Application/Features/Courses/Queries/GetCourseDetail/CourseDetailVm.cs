@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JvA.Library.Application.Features.Courses.Queries.GetCourseDetail
+namespace Araujo.Library.Application.Features.Courses.Queries.GetCourseDetail
 {
     public class CourseDetailVm
     {

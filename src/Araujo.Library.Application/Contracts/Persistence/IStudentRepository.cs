@@ -1,7 +1,7 @@
-﻿using JvA.Library.Domain.Entities;
+﻿using Araujo.Library.Domain.Entities;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Application.Contracts.Persistence
+namespace Araujo.Library.Application.Contracts.Persistence
 {
     public interface IStudentRepository : IAsyncRepository<Student>
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JvA.Library.Application.Features.Books.Queries.GetBookList
+namespace Araujo.Library.Application.Features.Books.Queries.GetBookList
 {
     public class BookListVm
     {

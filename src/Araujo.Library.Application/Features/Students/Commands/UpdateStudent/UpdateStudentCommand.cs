@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace JvA.Library.Application.Features.Students.Commands.UpdateStudent
+namespace Araujo.Library.Application.Features.Students.Commands.UpdateStudent
 {
     public class UpdateStudentCommand : IRequest
     {

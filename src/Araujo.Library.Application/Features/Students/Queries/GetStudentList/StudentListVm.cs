@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JvA.Library.Application.Features.Students.Queries.GetStudentList
+namespace Araujo.Library.Application.Features.Students.Queries.GetStudentList
 {
     public class StudentListVm
     {

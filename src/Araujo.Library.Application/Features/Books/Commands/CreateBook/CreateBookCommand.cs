@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace JvA.Library.Application.Features.Books.Commands.CreateBook
+namespace Araujo.Library.Application.Features.Books.Commands.CreateBook
 {
     public class CreateBookCommand : IRequest<CreateBookCommandResponse>
     {

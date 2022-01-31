@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using JvA.Library.Application.Contracts.Persistence;
+using Araujo.Library.Application.Contracts.Persistence;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Application.Features.Students.Queries.GetStudentList
+namespace Araujo.Library.Application.Features.Students.Queries.GetStudentList
 {
     public class GetStudentListQueryHandler :
         IRequestHandler<GetStudentListQuery, IReadOnlyList<StudentListVm>>

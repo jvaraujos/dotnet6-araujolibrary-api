@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using JvA.Library.Application.Contracts.Persistence;
+using Araujo.Library.Application.Contracts.Persistence;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace JvA.Library.Application.Features.Books.Queries.BorrowBook
+namespace Araujo.Library.Application.Features.Books.Queries.BorrowBook
 {
     public class BorrowBookQueryHandler :
         IRequestHandler<BorrowBookQuery, BorrowBookQueryResponse>

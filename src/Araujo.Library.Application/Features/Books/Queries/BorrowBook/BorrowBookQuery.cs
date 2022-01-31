@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace JvA.Library.Application.Features.Books.Queries.BorrowBook
+namespace Araujo.Library.Application.Features.Books.Queries.BorrowBook
 {
     public class BorrowBookQuery : IRequest<BorrowBookQueryResponse>
     {

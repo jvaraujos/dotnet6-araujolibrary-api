@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace JvA.Library.Application
+namespace Araujo.Library.Application
 {
     public static class CoreServiceRegistration
     {

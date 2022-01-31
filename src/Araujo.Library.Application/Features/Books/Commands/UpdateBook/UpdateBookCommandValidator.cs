@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace JvA.Library.Application.Features.Books.Commands.UpdateBook
+namespace Araujo.Library.Application.Features.Books.Commands.UpdateBook
 {
     public class UpdateBookCommandValidator : AbstractValidator<UpdateBookCommand>
     {

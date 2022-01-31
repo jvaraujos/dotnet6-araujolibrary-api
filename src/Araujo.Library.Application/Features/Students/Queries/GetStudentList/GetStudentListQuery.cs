@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System.Collections.Generic;
 
-namespace JvA.Library.Application.Features.Students.Queries.GetStudentList
+namespace Araujo.Library.Application.Features.Students.Queries.GetStudentList
 {
     public class GetStudentListQuery : IRequest<IReadOnlyList<StudentListVm>>
     {

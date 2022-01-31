@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace JvA.Library.Application.Features.Students.Commands.DeleteStudent
+namespace Araujo.Library.Application.Features.Students.Commands.DeleteStudent
 {
     public class DeleteStudentCommand : IRequest
     {

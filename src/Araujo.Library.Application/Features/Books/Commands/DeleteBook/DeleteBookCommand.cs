@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace JvA.Library.Application.Features.Books.Commands.DeleteBook
+namespace Araujo.Library.Application.Features.Books.Commands.DeleteBook
 {
     public class DeleteBookCommand : IRequest
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace JvA.Library.Application.Responses
+namespace Araujo.Library.Application.Responses
 {
     public class BaseResponse
     {

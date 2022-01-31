@@ -1,11 +1,11 @@
-﻿using JvA.Library.Application.Contracts.Persistence;
-using JvA.Library.Persistence.DbContexts;
-using JvA.Library.Persistence.Repositories;
+﻿using Araujo.Library.Application.Contracts.Persistence;
+using Araujo.Library.Persistence.DbContexts;
+using Araujo.Library.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace JvA.Library.Persistence
+namespace Araujo.Library.Persistence
 {
     public static class PersistenceServiceRegistration
     {

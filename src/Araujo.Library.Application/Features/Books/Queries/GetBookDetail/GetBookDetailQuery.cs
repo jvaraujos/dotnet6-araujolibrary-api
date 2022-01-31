@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace JvA.Library.Application.Features.Books.Queries.GetBookDetail
+namespace Araujo.Library.Application.Features.Books.Queries.GetBookDetail
 {
     public class GetBookDetailQuery : IRequest<GetBookDetailQueryResponse>
     {
